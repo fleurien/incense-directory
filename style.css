@@ -1,0 +1,122 @@
+/* COLOR PALETTE */
+
+/*
+    lightshades:#f5f4f4;
+    lightaccent:#aea09a;
+    mainbrand:#cbc79c;
+    darkaccent:#987e66;
+    darkshades:#59636f;
+*/
+
+/* FONTS */
+
+/*
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Monda', sans-serif;
+*/
+
+/* GENERAL STYLES */
+
+body{
+    background:#f5f4f4;
+    margin:0;
+    color:#59636f;
+    font-family:'Monda', sans-serif;
+}
+
+h1{
+    font-family:'Julius Sans One', sans-serif;
+}
+
+h2{
+    font-family:'Julius Sans One', sans-serif;
+}
+
+a{
+    color:#f5f4f4;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #987e66;
+}
+
+li{
+    list-style:none;
+}
+
+/* HEADER AND NAVIGATION */
+
+header{
+    background:#cbc79c;
+    padding:0 10vw;
+}
+
+nav{
+    display:flex;
+    padding:10pt;
+}
+
+#logo{
+    display:flex;
+    flex:1;
+}
+
+.links{
+    display:flex;
+    flex:2;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links ul{
+    display:flex;
+}
+
+.links ul li{
+    margin:10px;
+}
+
+#search{
+    background:#fff;
+    color:darkgray;
+    border-radius:4px;
+    align-self:center;
+    padding:5px 40px;
+    margin:10px 0 10px 10px;
+}
+
+/* SECTION */
+
+section{
+    padding:0 10vw;
+    display:flex;
+}
+
+.section-left{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.button{
+    background-color:#cbc79c;
+    border:none;
+    border-radius:4px;
+    padding:10px;
+    color:#f5f4f4;
+    transition:0.2s;
+}
+
+.button:hover{
+    background-color:#987e66;
+    transition:0.4s;
+}
+
+.section-right{
+    display:flex;
+}
+
+#section-image{
+    margin:30px 0 30px 30px;
+}
